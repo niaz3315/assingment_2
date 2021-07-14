@@ -1,0 +1,158 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.full_body {
+  width: 1440px;
+  background-color: rgb(248, 214, 248);
+}
+/* head section */
+.all_head {
+  display: flex;
+  background-color: #2d25a0;
+  padding: 44px;
+}
+.head_content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.head_img {
+  width: 50%;
+}
+.head_img img {
+  height: 654px;
+  width: 671px;
+}
+.head_img img:hover {
+  height: 654px;
+  width: 671px;
+  transition: transform 1s ease-out 0.2s;
+  transform: scale(1.5);
+}
+.head_title h2 {
+  font-size: 78px;
+  color: white;
+  font-weight: bold;
+}
+.head_button a {
+  text-decoration: none;
+  background: red;
+  padding: 7px 16px;
+  font-size: 22px;
+  border-radius: 5px;
+  color: white;
+}
+.head_button a:hover {
+  background: rgb(255, 255, 255);
+  padding: 12px 19px;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+/* main section */
+.main_content {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  background-color: #ffffff;
+  margin: 22px 22px 22px 22px;
+  box-shadow: 0px 5px 18px -3px;
+  padding: 16px;
+  width: 300px;
+}
+.cont_img img {
+  width: 300px;
+  height: 256px;
+}
+.cont_head h2 {
+  font-size: 33px;
+  color: #1892e3;
+}
+.cont_para p {
+  font-size: 22px;
+  color: gray;
+}
+/* highlight section */
+.highlight {
+  display: flex;
+  margin-top: 144px;
+}
+.description {
+  width: 50%;
+  padding: 11px;
+  margin: 11px;
+}
+.description h1 {
+  font-size: 57px;
+}
+.description p {
+  font-size: 33px;
+  color: gray;
+}
+.description a {
+  text-decoration: none;
+  background: beige;
+  color: red;
+  padding: 15px;
+  border-radius: 22px;
+  font-size: 30px;
+}
+.des_img img {
+  height: 534px;
+  width: 567px;
+}
+.des_img img {
+  height: 427px;
+  width: 567px;
+}
+/* footer section */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 77px;
+  background-color: black;
+}
+.foot_img {
+}
+.foot_img img {
+  width: 267px;
+  margin: 43px;
+}
+.foot_img img:hover {
+  transition: transform 5s ease 0.1s;
+  transform: skewX(30deg);
+  width: 267px;
+  margin: 33px;
+}
+
+.foot_icon img {
+  width: 25px;
+  background: #c56262;
+}
+.foot_icon img:hover {
+  width: 35px;
+  height: 40px;
+  background: #030303;
+}
+.foot_copyright p {
+  font-size: 22px;
+  margin-bottom: 36px;
+  color: white;
+}
+.live {
+  background-color: rgb(145, 125, 125);
+  margin: 22px 22px;
+  border: 3px solid grey;
+}
+
+/* responsive */
+@media olny screen and (max-width: 688px) {
+  .full_body {
+    width: 688px;
+  }
+}
